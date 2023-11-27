@@ -27,7 +27,7 @@ current_time=$(date +"%Y-%m-%d %H:%M:%S")
 # Append log message with current time to log_cleanup.log
 echo "$current_time - Logs cleaned successfully." >> /var/log/log_cleanup.log
 
----------------------------------------------------------------------------------------
+#---------------------------------------------------------------------------------------
 
 #crontab -e
 #0 3 * * 0 bash /home/ubuntu/log_cleanup.sh
